@@ -1,0 +1,6 @@
+             #!/bin/bash
+              sudo apt-get update -y
+              sudo apt-get install -y apache2
+              sudo  systemctl enable --now apache2
+              echo "hi from EC2 made by Ibrahim-lab2" > /var/www/html/index.html[
+              
